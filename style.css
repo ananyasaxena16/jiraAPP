@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0 auto;
+    
+}
+.toolbar{
+    background-color: grey;
+    height:15vh;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+}
+.filter-container{
+    height:60%;
+    width:14rem;
+    margin-right: 4rem;
+    border-radius: 0.2rem;
+    background-color: rgb(59, 58, 58);
+    display: flex;
+}
+.filter{
+    height:100%;
+    width:25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter_color{
+    height:40%;
+    width: 40%;
+    border-radius: 0.1rem;
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.action-container{
+    height:60%;
+    width:8rem;
+    background-color: rgb(59, 58, 58);
+    border-radius:0.2rem ;
+    display:flex;
+    border-radius: 0.2rem solid;
+
+}
+.icon-container{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fas{
+    font-size:1.75rem;
+}
+.main-container{
+    height:85vh;
+}
